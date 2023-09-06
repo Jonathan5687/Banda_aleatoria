@@ -2,11 +2,12 @@ from musicos import *
 
 t = Musicos()
 
-t.agregar_animal(Guitarra)
-t.agregar_animal(guacharaca)
-t.agregar_animal(caja)
-t.agregar_animal(acordeon)
+t.agregar_instrumento(Guitarra)
+t.agregar_instrumento(guacharaca)
+t.agregar_instrumento(caja)
+t.agregar_instrumento(acordeon)
+t.agregar_instrumento(bajo)
 
-for i in range(4): 
+for i in range(5): 
     a = t.entregar_instrumento()
     print(a.afinar(), a.tocar())
