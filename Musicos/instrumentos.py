@@ -41,3 +41,10 @@ class Acordeon (Instrumento):
 	def tocar(self): 
 		print("Tocando acordeon") 
 
+class bajo (Instrumento): 
+	
+	def afinar(self): 
+		print("Afinando bajo") 
+
+	def tocar(self): 
+		print("Tocando bajo") 
