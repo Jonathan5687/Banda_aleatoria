@@ -1,7 +1,7 @@
 from instrumentos import * 
 from random import choice 
 
-class Tienda: 
+class Musicos:
     def __init__(self): 
         self.instrumentos = []
     
