@@ -2,7 +2,7 @@ from musicos import *
 
 t = Musicos()
 
-t.agregar_instrumento(Guitarra)
+t.agregar_instrumento(guitarra)
 t.agregar_instrumento(guacharaca)
 t.agregar_instrumento(caja)
 t.agregar_instrumento(acordeon)
