@@ -6,7 +6,7 @@ class Instrumento:
 		pass
         
 
-class Guitarra (Instrumento): 
+class guitarra (Instrumento): 
 	
 	def afinar(self): 
 		print("Afinando guitarra") 
@@ -33,7 +33,7 @@ class caja(Instrumento):
 		print("Tocando caja") 
 
 
-class Acordeon (Instrumento): 
+class acordeon (Instrumento): 
 	
 	def afinar(self): 
 		print("Afinando acordeon") 
