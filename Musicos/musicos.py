@@ -1,10 +1,12 @@
-from Instrumento import *
+from instrumentos import * 
+from random import choice 
 
-class Musico: 
+class Tienda: 
+    def __init__(self): 
+        self.instrumentos = []
+    
+    def agregar_instrumento(self, instrumento): 
+        self.instrumentos.append(instrumento)
 
-	def __init__ (self, instrumento): 
-	  self.instrumento = instrumento  
-        def tocar (self): 
-	  self.instrumento.tocar() 
-        def afinar (self): 
-          self.instrumento.afinar() 
+    def entregar_instrumento(self): 
+        return choice (self.instrumentos)
